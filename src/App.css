@@ -9,11 +9,17 @@
   padding: 0;
   border: 1px solid #246861;
   background-color: rgb(255, 228, 196, 0.3);
+  --morumsu: #4731D3;
+  --limon: #CBF281;
 }
 
 section {
   height: 50vh;
   padding: 5vh max(10vw, 5rem);
+}
+
+.hero-section {
+  background: linear-gradient(to right, var(--morumsu) 80%, var(--limon) 50%);
 }
 
 .hero-content {
@@ -34,7 +40,13 @@ section {
 }
 
 .hero-content img {
-  grid-column: 6/9;
+  grid-column: 7/9;
   grid-row: 2/3;
   margin: auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to right, red 50%, green 50%);
 }
