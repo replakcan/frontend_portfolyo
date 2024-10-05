@@ -1,11 +1,5 @@
 const Hero = () => {
+  return <section className="hero-section">Hero</section>;
+};
 
-return (
-
-    <p>Hero</p>
-
-)
-
-}
-
-export default Hero
+export default Hero;

@@ -1,11 +1,5 @@
 const Skills = () => {
+  return <section className="skills-section">Skills</section>;
+};
 
-    return (
-    
-        <p>Skills</p>
-    
-    )
-    
-    }
-    
-    export default Skills
+export default Skills;

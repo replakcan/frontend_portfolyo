@@ -1,11 +1,5 @@
-const Projects  = () => {
+const Projects = () => {
+  return <section className="projects-section">Projects</section>;
+};
 
-    return (
-    
-        <p>Projects</p>
-    
-    )
-    
-    }
-    
-    export default Projects
+export default Projects;

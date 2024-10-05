@@ -1,11 +1,5 @@
 const Profile = () => {
+  return <section className="profile-section">Profile</section>;
+};
 
-    return (
-    
-        <p>Profile</p>
-    
-    )
-    
-    }
-    
-    export default Profile
+export default Profile;
