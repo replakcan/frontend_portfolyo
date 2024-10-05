@@ -12,7 +12,12 @@
   background-color: rgb(255, 228, 196, 0.3);
   --morumsu: #4731d3;
   --limon: #cbf281;
-  --btnclr: #3730A3;
+  --btnclr: #3730a3;
+}
+
+section {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 
 .hero-section {
@@ -27,8 +32,18 @@
 }
 
 .header-container {
-  grid-column: 2/9;
+  grid-column: 2/7;
   grid-row: 1/2;
+}
+
+.lang {
+  grid-column: 7/8;
+  width: 100%;
+}
+
+.dark-theme {
+  grid-column: 8/9;
+  width: 100%;
 }
 
 .hero-left {
@@ -62,19 +77,18 @@ p {
   display: flex;
   gap: 1rem;
   color: var(--btnclr);
-} 
-
-button {
-  padding: .5em;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  justify-content: center;
-  border-radius: 1em;
-  
 }
 
-button img {
+.hero-btns button {
+  padding: 0.3em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 1em;
+}
+
+.hero-btns button img {
   width: 30%;
 }
 
