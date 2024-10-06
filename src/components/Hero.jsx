@@ -13,12 +13,12 @@ const Hero = () => {
           </p>
           <div className="hero-btns">
             <button>
-              <img src="src/assets/images/github-mark.svg" />
+              <img src="src/assets/images/github-mark.svg"></img>
               <span>Github</span>
             </button>
             <button>
-              <img src="src/assets/images/github-mark.svg" />
-              <span>Linkedin</span>
+              <img src="src/assets/images/github-mark.svg"></img>
+              <span>Github</span>
             </button>
           </div>
         </div>
