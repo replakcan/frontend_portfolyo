@@ -15,19 +15,19 @@ const Profile = () => {
       <div className="profile-container">
         <div className="info-container">
           <h2 className="info-heading">Basic Information</h2>
-          <p>
+          <p className="info">
             <span>Doğum tarihi </span>
             {profileData.birthDate}
           </p>
-          <p>
+          <p className="info">
             <span>İkamet Şehri </span>
             {profileData.province}
           </p>
-          <p>
+          <p className="info">
             <span>Eğitim Durumu </span>
             {profileData.education}
           </p>
-          <p>
+          <p className="info">
             <span>Tercih Ettiği Rol </span>
             {profileData.position}
           </p>
