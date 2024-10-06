@@ -1,11 +1,6 @@
 const Hero = () => {
   return (
     <section className="hero-section">
-      <nav className="header-nav">
-        <h4>Alper</h4>
-        <button className="lang">LANG</button>
-        <button className="dark-theme">DarkTheme</button>
-      </nav>
       <div className="hero-container">
         <div className="hero-left">
           <h1>
