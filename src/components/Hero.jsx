@@ -25,7 +25,7 @@ const Hero = () => {
             </button>
             <button>
               <img src="src/assets/images/github-mark.svg"></img>
-              <span>Github</span>
+              <span>Linkedin</span>
             </button>
           </div>
         </div>

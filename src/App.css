@@ -58,7 +58,7 @@ section {
 }
 .hero-nav div {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .hero-container {
@@ -218,6 +218,10 @@ section {
 
 .project-content {
   border-radius: 0 1rem 1rem 0;
+}
+
+.project-content p {
+  font-size: 0.9rem;
 }
 
 .project-content h2 {
