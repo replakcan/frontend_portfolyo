@@ -1,10 +1,12 @@
 const Hero = () => {
   return (
     <section className="hero-section">
-      <div className="hero-content">
-        <div className="header-container">alper</div>
+      <nav className="header-nav">
+        <h4>Alper</h4>
         <button className="lang">LANG</button>
         <button className="dark-theme">DarkTheme</button>
+      </nav>
+      <div className="hero-container">
         <div className="hero-left">
           <h1>
             I am a Frontend <br />
@@ -25,7 +27,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img className="hero-img" src="src/assets/images/foto.svg" />
+        <img className="hero-right" src="src/assets/images/foto.svg" />
       </div>
     </section>
   );
