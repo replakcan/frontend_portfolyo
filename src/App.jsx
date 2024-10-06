@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <main className="main-section">
+    <main>
       <Hero />
       <Skills />
       <Profile />

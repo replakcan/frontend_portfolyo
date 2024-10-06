@@ -27,7 +27,9 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img className="hero-right" src="src/assets/images/foto.svg" />
+        <div className="hero-right">
+          <img src="src/assets/images/foto.svg" />
+        </div>
       </div>
     </section>
   );
