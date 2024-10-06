@@ -33,7 +33,7 @@ const Profile = () => {
             {profileData.position}
           </p>
         </div>
-        <img src="src/images/foto.svg" />
+        <img src="./images/foto.svg" />
         <div className="info-content">
           <h2 className="aboutMe-heading">About Me</h2>
           <p>

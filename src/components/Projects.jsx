@@ -3,7 +3,7 @@ const Projects = () => {
     <section className="projects-section">
       <h1 className="project-header">Projects</h1>
       <div className="projects-container">
-        <img src="src/images/projects/Rectangle 41.png" />
+        <img src="./images/projects/Rectangle 41.png" />
         <div className="project-content">
           <h2>Workintech</h2>
           <p>
@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="projects-container">
-        <img src="src/images/projects/Rectangle 41.png" />
+        <img src="./images/projects/Rectangle 41.png" />
         <div className="project-content">
           <h2>Workintech</h2>
           <p>

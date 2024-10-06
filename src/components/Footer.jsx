@@ -10,16 +10,16 @@ const Footer = () => {
         <a href="">replakcan@repla.com</a>
         <div className="socials">
           <a href="">
-            <img src="src/images/twitter 1.png" alt="" />
+            <img src="./images/twitter 1.png" alt="" />
           </a>
           <a href="">
-            <img src="src/images/codepen 1.svg" alt="" />
+            <img src="./images/codepen 1.svg" alt="" />
           </a>
           <a href="">
-            <img src="src/images/at-sign 1.svg" alt="" />
+            <img src="./images/at-sign 1.svg" alt="" />
           </a>
           <a href="">
-            <img src="src/images/instagram 1.svg" alt="" />
+            <img src="./images/instagram 1.svg" alt="" />
           </a>
         </div>
       </div>

@@ -20,17 +20,17 @@ const Hero = () => {
           </p>
           <div className="hero-btns">
             <button>
-              <img src="src/images/github-mark.svg"></img>
+              <img src="./images/github-mark.svg"></img>
               <span>Github</span>
             </button>
             <button>
-              <img src="src/images/github-mark.svg"></img>
+              <img src="./images/github-mark.svg"></img>
               <span>Github</span>
             </button>
           </div>
         </div>
         <div className="hero-right">
-          <img src="src/images/foto.svg" />
+          <img src="./images/foto.svg" />
           {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sed inventore sapiente quo ducimus enim modi odit aliquid, aliquam corporis sunt repudiandae iste laudantium esse error a nobis dolorem nisi.</p> */}
         </div>
       </div>
