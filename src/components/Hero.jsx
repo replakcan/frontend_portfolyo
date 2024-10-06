@@ -23,7 +23,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-right">
-          <img src="src/assets/images/foto.svg" />
+          {/* <img src="src/assets/images/foto.svg" /> */}
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sed inventore sapiente quo ducimus enim modi odit aliquid, aliquam corporis sunt repudiandae iste laudantium esse error a nobis dolorem nisi.</p>
         </div>
       </div>
     </section>
