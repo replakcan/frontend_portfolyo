@@ -1,6 +1,13 @@
 const Hero = () => {
   return (
     <section className="hero-section">
+      <div className="hero-nav">
+        <h2>Alper</h2>
+        <div>
+          <button>LANG</button>
+          <button>TEMA</button>
+        </div>
+      </div>
       <div className="hero-container">
         <div className="hero-left">
           <h1>
@@ -8,7 +15,7 @@ const Hero = () => {
             Developer...
           </h1>
           <p>
-            ...who likes to craft solid and scalable frontend products with
+            ...who likes to craft solid and scalable <br></br>frontend products with
             great user experiences.
           </p>
           <div className="hero-btns">

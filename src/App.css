@@ -43,6 +43,27 @@ section {
   background: var(--heroBackground);
 }
 
+.hero-nav {
+  grid-column: 2/9;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: subgrid;
+  align-items: flex-start;
+  padding-right: 5vw;
+}
+
+.hero-nav h2 {
+  color: var(--limon);
+}
+.hero-nav div {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-nav div button {
+  
+}
+
 .hero-container {
   grid-column: 2/9;
   display: flex;
@@ -114,6 +135,7 @@ section {
 .skill {
   display: flex;
   align-items: center;
+  align-content: flex-start;
   gap: 1rem;
   width: 40%;
 }
@@ -132,6 +154,12 @@ section {
 .profile-section {
   grid-row: 3/4;
   background-color: var(--morumsu);
+}
+
+.profile-section h1 {
+  grid-column: 2/9;
+  color: var(--limon);
+  font-size: 3rem;
 }
 
 .profile-container {

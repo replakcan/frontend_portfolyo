@@ -12,6 +12,7 @@ const Profile = () => {
 
   return (
     <section className="profile-section">
+      <h1>Profile</h1>
       <div className="profile-container">
         <div className="info-container">
           <h2 className="info-heading">Basic Information</h2>
