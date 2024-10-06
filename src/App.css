@@ -99,4 +99,12 @@ section {
   background-color: var(--footerBackground);
 }
 
+.footer-container {
+  grid-column: 2/9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
 /* */
