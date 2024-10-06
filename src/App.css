@@ -15,7 +15,7 @@
   --btnclr: #3730a3;
   --footerBackground: #f9f9f9;
   --skillsBackground: #f5f5f5;
-  --heroBackground: linear-gradient(to right, #4731d3 70%, #cbf281 30%);
+  --heroBackground: linear-gradient(to right, #4731d3 77%, #cbf281 30%);
 }
 
 main {
@@ -41,18 +41,15 @@ section {
 
 .hero-container {
   grid-column: 2/9;
-  display: grid;
-  grid-template-columns: subgrid;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-left {
   grid-column: 1/5;
 }
 
-.hero-right {
-  grid-column: 5/8;
-  
-}
+
 /* */
 
 .skills-section {
@@ -60,6 +57,11 @@ section {
   background-color: var(--skillsBackground);
 }
 
+.skills-container {
+  display: grid;
+  grid-column: 2/9;
+  grid-template-columns: repeat(auto-fill, 33%);
+}
 /* */
 
 .profile-section {
