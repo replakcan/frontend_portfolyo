@@ -2,31 +2,31 @@ const Skills = () => {
   return (
     <section className="skills-section">
       <div className="skills-container">
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
-      <div>
+      <div className="skill">
         <img src="src/assets/images/github-mark.svg"/>
         <p>TAZDİN</p>
       </div>
