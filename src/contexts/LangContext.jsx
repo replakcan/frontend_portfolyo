@@ -8,7 +8,7 @@ export const LangContext = createContext();
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
-  const [data, setData] = useState({});
+  const [data, setData] = useState(langData.tr);
 
   const toggleLang = () => {
     if (lang === "TR") {
