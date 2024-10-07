@@ -1,32 +1,18 @@
+import { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
+import { skills } from "../data";
+import Skill from "../components/skill";
+
 const Skills = () => {
+  const { data } = useContext(LangContext);
+
   return (
     <section className="skills-section dark:bg-slate-800">
-      <h1 className="font-bold dark:text-gray-300">Skills</h1>
+      <h1 className="font-bold dark:text-gray-300">{data.skills.main_title}</h1>
       <div className="skills-container">
-        <div className="skill">
-          <img src="./images/skills/js-logo 1.svg" />
-          <p className="dark:text-gray-300">JAVASCRIPT</p>
-        </div>
-        <div className="skill">
-          <img src="./images/skills/node-js.svg" />
-          <p className="dark:text-gray-300">NODE</p>
-        </div>
-        <div className="skill">
-          <img src="./images/skills/Rectangle 35.svg" />
-          <p className="dark:text-gray-300">REACT</p>
-        </div>
-        <div className="skill">
-          <img src="./images/skills/Group 101.svg" />
-          <p className="dark:text-gray-300">VS CODE</p>
-        </div>
-        <div className="skill">
-          <img src="./images/skills/Group 101(1).svg" />
-          <p className="dark:text-gray-300">REDUX</p>
-        </div>
-        <div className="skill">
-          <img src="./images/skills/figma-logo 1.svg" />
-          <p className="dark:text-gray-300">FIGMA</p>
-        </div>
+        {skills.map((skill) => {
+          return <Skill key={skill.id} src={skill.src} name={skill.name} />;
+        })}
       </div>
     </section>
   );
