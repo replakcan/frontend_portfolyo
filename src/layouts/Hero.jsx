@@ -4,24 +4,28 @@ import { ThemeContext } from "../contexts/ThemeContext";
 
 const Hero = () => {
   const { lang, toggleLang } = useContext(LangContext);
-
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
-
   const { data } = useContext(LangContext);
 
   return (
     <section className=" hero-section dark:bg-gray-800">
       <div className="hero-nav">
         <h2 className="text-limon">{data.hero.name}</h2>
-        <div>
+        <div className="interactive">
           <button
             onClick={toggleLang}
             className="text-limon text-sm dark:text-gray-300"
           >
             {lang === "EN" ? (
-              <img src="./images/hero/turkey.svg" alt="" />
+              <div className="language">
+                <p>TÜRKÇEYE GEÇ</p>
+                <img src="./images/hero/turkey.svg" alt="Türkçe için tıkla" />
+              </div>
             ) : (
-              <img src="./images/hero/usa.svg" alt="" />
+              <div className="language">
+                <p>FOR ENGLISH</p>
+                <img src="./images/hero/usa.svg" alt="Click for English" />
+              </div>
             )}
           </button>
           <label className="relative inline-flex items-center cursor-pointer">
