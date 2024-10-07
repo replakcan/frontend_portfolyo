@@ -11,7 +11,7 @@ export const METHODS = {
 
 export default function useAxios({
   initialData,
-  baseURL = 'https://nextgen-project.onrender.com/api/s11d3',
+  baseURL = 'https://reqres.in/api/workintech',
 }) {
   const [data, setData] = useState(initialData);
 
