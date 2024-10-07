@@ -3,7 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
-    colors: {},
     extend: {
       colors: {
         "morumsu": "#4731d3",
@@ -12,6 +11,9 @@ export default {
         "footerBackground": "#f9f9f9",
         "skillsBackground": "#f5f5f5",
         "customRed": "#ff0000",
+        "eflatun": "#8F88FF",
+        "btnswitch": "#FFE86E",
+        
       },
     },
   },

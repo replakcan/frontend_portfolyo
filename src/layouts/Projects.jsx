@@ -1,10 +1,10 @@
 const Projects = () => {
   return (
-    <section className="projects-section bg-limon">
-      <h1 className="project-header font-bold">Projects</h1>
-      <div className="projects-container">
+    <section className="projects-section bg-limon dark:bg-gray-800">
+      <h1 className="project-header font-bold dark:text-gray-300">Projects</h1>
+      <div className="projects-container dark:bg-gray-300">
         <img src="./images/projects/Rectangle 41.png" />
-        <div className="project-content">
+        <div className="dark:bg-gray-300 project-content">
           <h2>Workintech</h2>
           <p>
             A simple, customizable, minimal setup cookie plugin that allows your
@@ -26,7 +26,7 @@ const Projects = () => {
       </div>
       <div className="projects-container">
         <img src="./images/projects/Rectangle 41.png" />
-        <div className="project-content">
+        <div className="project-content dark:bg-gray-300">
           <h2>Workintech</h2>
           <p>
             A simple, customizable, minimal setup cookie plugin that allows your

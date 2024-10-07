@@ -50,7 +50,6 @@ section {
   justify-content: space-between;
   grid-template-columns: subgrid;
   align-items: flex-start;
-  
 }
 
 .hero-nav h2 {
