@@ -1,4 +1,4 @@
-export const languagesData = {
+export const langData = {
   en: {
     hero: {
       interactive: ["lang", "DarkTheme"],

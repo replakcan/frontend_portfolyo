@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <section className=" profile-section dark:bg-gray-500">
-      <h1 className="text-limon dark:text-gray-300 font-bold">Profile</h1>
+      <h1 className="text-limon dark:text-gray-800 font-bold">Profile</h1>
       <div className="profile-container">
         <div className="info-container">
           <h2 className="info-heading text-3xl">Basic Information</h2>

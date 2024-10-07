@@ -1,6 +1,14 @@
-const Hero = ({ darkMode, setDarkMode }) => {
+const Hero = ({ lang, setLang, darkMode, setDarkMode }) => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
+  };
+
+  const toggleLang = () => {
+    if (lang === "TR") {
+      setLang("EN");
+    } else {
+      setLang("TR");
+    }
   };
 
   return (
@@ -8,7 +16,12 @@ const Hero = ({ darkMode, setDarkMode }) => {
       <div className="hero-nav">
         <h2 className="text-limon">Alper</h2>
         <div>
-          <button className="text-limon text-sm dark:text-gray-300">TÜRKÇE'YE GEÇ</button>
+          <button
+            onClick={toggleLang}
+            className="text-limon text-sm dark:text-gray-300"
+          >
+            { lang === "EN" ? <img src="./images/hero/turkey.svg" alt="" /> : <img src="./images/hero/usa.svg" alt="" />}
+          </button>
           <label className="relative inline-flex items-center cursor-pointer">
             <input
               type="checkbox"
@@ -27,7 +40,7 @@ const Hero = ({ darkMode, setDarkMode }) => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          <h1 className="text-limon font-bold dark:text-gray-300">
+          <h1 className="text-limon font-bold dark:text-gray-800">
             I am a Frontend <br />
             Developer...
           </h1>

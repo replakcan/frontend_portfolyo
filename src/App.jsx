@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import useLocalStorage from "./hooks/useLocalStorage";
 import Footer from "./layouts/Footer";
@@ -10,11 +11,13 @@ import Skills from "./layouts/Skills";
 function App() {
 
   const [darkMode, setDarkMode] = useLocalStorage("DarkMode", false);
+  const [lang, setLang] = useLocalStorage("x-lang", "TR");
 
+  useEffect(() => {}, [])
 
   return (
     <main className={darkMode ? 'dark' : ''}>
-      <Hero darkMode={darkMode} setDarkMode={setDarkMode} />
+      <Hero lang={lang} setLang={setLang} darkMode={darkMode} setDarkMode={setDarkMode} />
       <Skills />
       <Profile />
       <Projects />
