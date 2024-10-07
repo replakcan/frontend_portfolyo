@@ -1,7 +1,7 @@
 export const langData = {
   en: {
     hero: {
-      interactive: ["lang", "DarkTheme"],
+      interactive: ["TÜRKÇEYE GEÇ", "DARK MODE"],
       title: "Frontend Developer",
       para: "...who likes to craft solid and scalable frontend products with great user experiences.",
       name: "Alper",
@@ -38,7 +38,7 @@ export const langData = {
   },
   tr: {
     hero: {
-      interactive: ["dil", "GeceModu"],
+      interactive: ["FOR ENGLISH", "GECEMODU"],
       title: "Ön uç geliştirici",
       para: "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünler oluşturmayı seven.",
       name: "Alper",
