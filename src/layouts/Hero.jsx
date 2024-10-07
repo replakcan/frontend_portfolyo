@@ -1,28 +1,29 @@
-import useLocalStorage from "../hooks/useLocalStorage";
-
-const Hero = () => {
-
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', true);
+const Hero = ({darkMode, setDarkMode}) => {
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
 
-
   return (
-    <section className="hero-section">
+    <section className="hero-section dark:bg-gray-800">
       <div className="hero-nav">
         <h2>Alper</h2>
         <div>
           <button>LANG</button>
-          <input
-            type="checkbox"
-            value=""
-            className="sr-only peer"
-            data-testid="darkMode-toggle"
-            checked={darkMode}
-            onChange={toggleDarkMode}
-          />
+          <label className="relative inline-flex items-center cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              className="sr-only peer"
+              data-testid="darkMode-toggle"
+              checked={darkMode}
+              onChange={toggleDarkMode}
+            />
+            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+            <span className="ms-3  font-medium text-gray-900 dark:text-gray-300">
+              Dark Mode {darkMode ? "On" : "Off"}
+            </span>
+          </label>
         </div>
       </div>
       <div className="hero-container">
@@ -32,8 +33,8 @@ const Hero = () => {
             Developer...
           </h1>
           <p>
-            ...who likes to craft solid and scalable <br></br>frontend products with
-            great user experiences.
+            ...who likes to craft solid and scalable <br></br>frontend products
+            with great user experiences.
           </p>
           <div className="hero-btns">
             <button>
