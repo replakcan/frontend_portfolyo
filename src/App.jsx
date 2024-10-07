@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <main className={darkMode ? 'dark bg-slate-900 h-screen' : ''}>
+    <main className={darkMode ? 'dark' : ''}>
       <Hero darkMode={darkMode} setDarkMode={setDarkMode} />
       <Skills />
       <Profile />

@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section className="projects-section">
+    <section className="projects-section bg-limon">
       <h1 className="project-header">Projects</h1>
       <div className="projects-container">
         <img src="./images/projects/Rectangle 41.png" />

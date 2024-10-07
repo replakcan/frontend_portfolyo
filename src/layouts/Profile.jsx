@@ -11,8 +11,8 @@ const Profile = () => {
   const [profileData, setProfileData] = useState(initialValues);
 
   return (
-    <section className="profile-section">
-      <h1>Profile</h1>
+    <section className="profile-section ">
+      <h1 className="text-limon">Profile</h1>
       <div className="profile-container">
         <div className="info-container">
           <h2 className="info-heading">Basic Information</h2>

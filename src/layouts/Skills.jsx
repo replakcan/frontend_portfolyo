@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section dark:bg-slate-800">
       <h1>Skills</h1>
       <div className="skills-container">
         <div className="skill">

@@ -50,15 +50,15 @@ section {
   justify-content: space-between;
   grid-template-columns: subgrid;
   align-items: flex-start;
-  padding-right: 5vw;
+  
 }
 
 .hero-nav h2 {
-  color: var(--limon);
+  /* color: var(--limon); */
 }
 .hero-nav div {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .hero-container {
@@ -79,7 +79,7 @@ section {
 
 .hero-container h1 {
   font-size: xxx-large;
-  color: var(--limon);
+  /* color: var(--limon); */
 }
 
 .hero-left p {
@@ -154,7 +154,7 @@ section {
 
 .profile-section h1 {
   grid-column: 2/9;
-  color: var(--limon);
+  /* color: var(--limon); */
   font-size: 3rem;
 }
 
@@ -178,7 +178,7 @@ section {
 }
 
 .info-container span {
-  color: var(--limon);
+  /* color: var(--limon); */
   min-width: 150px;
 }
 
@@ -205,7 +205,7 @@ section {
 
 .projects-section {
   grid-row: 4/5;
-  background-color: var(--limon);
+  /* background-color: var(--limon); */
 }
 
 .projects-container {
