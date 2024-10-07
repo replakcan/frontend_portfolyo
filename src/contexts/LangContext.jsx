@@ -5,6 +5,7 @@ import { langData } from "../data";
 
 export const LangContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
 
