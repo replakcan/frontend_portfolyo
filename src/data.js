@@ -33,6 +33,7 @@ export const langData = {
     footer: {
       title: "Send me a message!",
       para: "Got a question or proposal, or just want to say hello? Go ahead.",
+      email: "replakcan@repla.com",
     },
   },
   tr: {
@@ -69,6 +70,40 @@ export const langData = {
     footer: {
       title: "Bana mesaj yolla!",
       para: "Danışmak istediğiniz veya söylemek istediğiniz herhangi bir şeyiniz varsa",
+      email: "replakcan@repla.com",
     },
   },
 };
+
+export const skills = [
+  {
+    id: "1",
+    name: "JAVASCRIPT",
+    src: "./images/skills/js-logo 1.svg",
+  },
+  {
+    id: "2",
+    name: "NODE",
+    src: "/images/skills/node-js.svg",
+  },
+  {
+    id: "3",
+    name: "REACT",
+    src: "./images/skills/Rectangle 35.svg",
+  },
+  {
+    id: "4",
+    name: "VS CODE",
+    src: "./images/skills/Group 101.svg",
+  },
+  {
+    id: "5",
+    name: "REDUX",
+    src: "./images/skills/Group 101(1).svg",
+  },
+  {
+    id: "6",
+    name: "FIGMA",
+    src: "./images/skills/figma-logo 1.svg",
+  },
+];
