@@ -1,9 +1,9 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Profile from "./components/Profile";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Footer from "./layouts/Footer";
+import Hero from "./layouts/Hero";
+import Profile from "./layouts/Profile";
+import Projects from "./layouts/Projects";
+import Skills from "./layouts/Skills";
 
 function App() {
   return (
