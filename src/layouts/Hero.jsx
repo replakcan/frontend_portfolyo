@@ -1,11 +1,28 @@
+import useLocalStorage from "../hooks/useLocalStorage";
+
 const Hero = () => {
+
+  const [darkMode, setDarkMode] = useLocalStorage('darkMode', true);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+
   return (
     <section className="hero-section">
       <div className="hero-nav">
         <h2>Alper</h2>
         <div>
           <button>LANG</button>
-          <button>TEMA</button>
+          <input
+            type="checkbox"
+            value=""
+            className="sr-only peer"
+            data-testid="darkMode-toggle"
+            checked={darkMode}
+            onChange={toggleDarkMode}
+          />
         </div>
       </div>
       <div className="hero-container">

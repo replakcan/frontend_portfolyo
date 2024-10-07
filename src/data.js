@@ -3,7 +3,7 @@ export const languagesData = {
     hero: {
       interactive: ["lang", "DarkTheme"],
       title: "Frontend Developer",
-      para: "...who likes to craft solid and scalablefrontend products with great user experiences.",
+      para: "...who likes to craft solid and scalable frontend products with great user experiences.",
       name: "Alper",
     },
     skills: {
@@ -39,7 +39,7 @@ export const languagesData = {
     hero: {
       interactive: ["dil", "GeceModu"],
       title: "Ön uç geliştirici",
-      para: "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleroluşturmayı seven.",
+      para: "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünler oluşturmayı seven.",
       name: "Alper",
     },
     skills: {
