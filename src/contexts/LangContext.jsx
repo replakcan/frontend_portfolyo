@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import axios from "axios";
 import { langData } from "../data";
@@ -8,6 +8,7 @@ export const LangContext = createContext();
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
+  const [data, setData] = useState({});
 
   const toggleLang = () => {
     if (lang === "TR") {
@@ -20,16 +21,18 @@ export const LangContextProvider = ({ children }) => {
   useEffect(() => {
     axios
       .post("https://reqres.in/api/workintech", langData)
-      .then((res) => {
-        console.log(res);
+      .then((response) => {
+        console.log("RESPONSE: ", response);
+        lang === "EN" ? setData(response.data.en) : setData(response.data.tr);
       })
       .catch((error) => {
         console.log(error);
       });
   }, [lang]);
+  console.log("DATA: ", data);
 
   return (
-    <LangContext.Provider value={{ lang, setLang, toggleLang }}>
+    <LangContext.Provider value={{ lang, setLang, toggleLang, data }}>
       {children}
     </LangContext.Provider>
   );
