@@ -1,5 +1,4 @@
-const Hero = ({darkMode, setDarkMode}) => {
-
+const Hero = ({ darkMode, setDarkMode }) => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
@@ -32,16 +31,16 @@ const Hero = ({darkMode, setDarkMode}) => {
             I am a Frontend <br />
             Developer...
           </h1>
-          <p>
+          <p className="text-white">
             ...who likes to craft solid and scalable <br></br>frontend products
             with great user experiences.
           </p>
-          <div className="hero-btns">
-            <button>
+          <div className="hero-btns ">
+            <button className="text-btnclr dark:text-red">
               <img src="./images/hero/github-mark.svg"></img>
               <span>Github</span>
             </button>
-            <button>
+            <button className="text-btnclr dark:text-red">
               <img src="./images/hero/linkedin.svg"></img>
               <span>Linkedin</span>
             </button>
