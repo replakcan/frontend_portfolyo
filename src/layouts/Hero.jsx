@@ -7,10 +7,12 @@ const Hero = () => {
 
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
 
+  const { data } = useContext(LangContext);
+
   return (
     <section className=" hero-section dark:bg-gray-800">
       <div className="hero-nav">
-        <h2 className="text-limon">Alper</h2>
+        <h2 className="text-limon">{data.hero.name}</h2>
         <div>
           <button
             onClick={toggleLang}
@@ -41,13 +43,9 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-left">
           <h1 className="text-limon font-bold dark:text-gray-800">
-            I am a Frontend <br />
-            Developer...
+            {data.hero.title}
           </h1>
-          <p className="text-white">
-            ...who likes to craft solid and scalable <br></br>frontend products
-            with great user experiences.
-          </p>
+          <p className="text-white">{data.hero.para}</p>
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/github-mark.svg"></img>
@@ -61,7 +59,6 @@ const Hero = () => {
         </div>
         <div className="hero-right">
           <img src="./images/hero/foto.svg" />
-          {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sed inventore sapiente quo ducimus enim modi odit aliquid, aliquam corporis sunt repudiandae iste laudantium esse error a nobis dolorem nisi.</p> */}
         </div>
       </div>
     </section>
