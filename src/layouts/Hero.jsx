@@ -1,15 +1,11 @@
-const Hero = ({ lang, setLang, darkMode, setDarkMode }) => {
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+import { useContext } from "react";
+import { LangContext } from "../contexts/LangContext";
+import { ThemeContext } from "../contexts/ThemeContext";
 
-  const toggleLang = () => {
-    if (lang === "TR") {
-      setLang("EN");
-    } else {
-      setLang("TR");
-    }
-  };
+const Hero = () => {
+  const { lang, toggleLang } = useContext(LangContext);
+
+  const { darkMode, toggleDarkMode } = useContext(ThemeContext);
 
   return (
     <section className=" hero-section dark:bg-gray-800">
@@ -20,7 +16,11 @@ const Hero = ({ lang, setLang, darkMode, setDarkMode }) => {
             onClick={toggleLang}
             className="text-limon text-sm dark:text-gray-300"
           >
-            { lang === "EN" ? <img src="./images/hero/turkey.svg" alt="" /> : <img src="./images/hero/usa.svg" alt="" />}
+            {lang === "EN" ? (
+              <img src="./images/hero/turkey.svg" alt="" />
+            ) : (
+              <img src="./images/hero/usa.svg" alt="" />
+            )}
           </button>
           <label className="relative inline-flex items-center cursor-pointer">
             <input
