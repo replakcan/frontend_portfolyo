@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <section className="profile-section ">
-      <h1 className="text-limon">Profile</h1>
+      <h1 className="text-limon font-bold">Profile</h1>
       <div className="profile-container">
         <div className="info-container">
           <h2 className="info-heading">Basic Information</h2>

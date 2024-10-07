@@ -27,7 +27,7 @@ const Hero = ({ darkMode, setDarkMode }) => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          <h1 className="text-limon">
+          <h1 className="text-limon font-bold">
             I am a Frontend <br />
             Developer...
           </h1>
@@ -36,11 +36,11 @@ const Hero = ({ darkMode, setDarkMode }) => {
             with great user experiences.
           </p>
           <div className="hero-btns ">
-            <button className="text-btnclr dark:text-red">
+            <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/github-mark.svg"></img>
               <span>Github</span>
             </button>
-            <button className="text-btnclr dark:text-red">
+            <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/linkedin.svg"></img>
               <span>Linkedin</span>
             </button>
