@@ -1,11 +1,13 @@
-import axios from "axios";
+import axios from "axios"
 
-const BASE_URL = "https://reqres.in/api/workintech";
+export const createApiInstance = () => {
 
-const axiosInstance = () => {
+
   return axios.create({
-    baseURL: BASE_URL,
-  });
-};
+    baseURL: "https://reqres.in/api/workintech",
+  })
 
-export const API = axiosInstance();
+
+}
+
+export let API = createApiInstance();

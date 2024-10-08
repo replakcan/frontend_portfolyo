@@ -10,11 +10,8 @@ export default {
         "btnclr": "#3730a3",
         "footerBackground": "#f9f9f9",
         "skillsBackground": "#f5f5f5",
-        "customRed": "#ff0000",
         "eflatun": "#8F88FF",
         "btnswitch": "#FFE86E",
-        
-        
       },
     },
   },

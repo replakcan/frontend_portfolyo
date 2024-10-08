@@ -39,12 +39,13 @@ section {
   display: grid;
   grid-template-columns: inherit;
   gap: 1rem;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 
 /* */
 
 .hero-section {
+  grid-column: 1/-1;
   background: var(--heroBackground);
   padding-top: 1rem;
 }
@@ -88,8 +89,8 @@ section {
   justify-content: flex-end;
   gap: 1rem;
   align-items: flex-start;
-  border: 1px solid black;
-  max-width: 70%;
+  /* border: 1px solid black; */
+  /* max-width: 70%; */
 }
 
 .hero-left p {
@@ -118,7 +119,7 @@ section {
 /* */
 
 .skills-section {
-  background-color: var(--skillsBackground);
+  /* background-color: var(--skillsBackground); */
 }
 
 .skills-section h1 {
@@ -134,7 +135,7 @@ section {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .skill {
@@ -143,7 +144,7 @@ section {
   align-content: flex-start;
   gap: 1rem;
   width: 40%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .skill img {
@@ -175,11 +176,11 @@ section {
 }
 .profile-child {
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-.profile img {
-  width: 100%;
+.profile-img {
+  max-width: 341px;
 }
 
 .info {

@@ -37,7 +37,7 @@ const Profile = () => {
             {data.profile.profile_info.position}
           </p>
         </div>
-        <img className="profile-child" src="./images/hero/foto.svg" />
+        <img className="profile-child profile-img" src="./images/hero/foto.svg" />
         <div className="info-content profile-child">
           <h2 className="aboutMe-heading pb-3 text-3xl text-white">
             {data.profile.sub_title[1]}

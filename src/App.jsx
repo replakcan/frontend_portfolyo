@@ -12,8 +12,10 @@ import { ThemeContext } from "./contexts/ThemeContext";
 function App() {
   const { darkMode } = useContext(ThemeContext);
 
+  console.log("darkmode: ", darkMode);
+
   return (
-    <main className={darkMode ? "dark" : ""}>
+    <main className={darkMode ? "dark bg-slate-900 h-screen" : ""}>
       <Hero />
       <Skills />
       <Profile />
