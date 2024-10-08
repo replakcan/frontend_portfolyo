@@ -10,27 +10,27 @@ const Profile = () => {
         {data.profile.main_title}
       </h1>
       <div className="profile-container">
-        <div className="info-container">
+        <div className="info-container profile-child leading-10">
           <h2 className="info-heading text-3xl">{data.profile.sub_title[0]}</h2>
           <p className="info">
-            <span className="text-limon">{lang === "TR" ? "Doğum tarihi" : "Date of Birth"} </span>
+            <div className="text-limon">{lang === "TR" ? "Doğum tarihi" : "Date of Birth"} </div>
             {data.profile.profile_info.birth_date}
           </p>
           <p className="info">
-            <span className="text-limon">{lang === "TR" ? "Şehir" : "City"} </span>
+            <div className="text-limon">{lang === "TR" ? "Şehir" : "City"} </div>
             {data.profile.profile_info.city}
           </p>
           <p className="info">
-            <span className="text-limon">{lang === "TR" ? "Eğitim" : "Education"} </span>
+            <div className="text-limon">{lang === "TR" ? "Eğitim" : "Education"} </div>
             {data.profile.profile_info.education}
           </p>
           <p className="info">
-            <span className="text-limon">{lang === "TR" ? "Pozisyon" : "Position"} </span>
+            <div className="text-limon">{lang === "TR" ? "Pozisyon" : "Position"} </div>
             {data.profile.profile_info.position}
           </p>
         </div>
-        <img src="./images/hero/foto.svg" />
-        <div className="info-content">
+        <img className="profile-child" src="./images/hero/foto.svg" />
+        <div className="info-content profile-child">
           <h2 className="aboutMe-heading text-3xl">
             {data.profile.sub_title[1]}
           </h2>

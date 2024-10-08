@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <section className="skills-section dark:bg-slate-800">
-      <h1 className="font-bold dark:text-gray-300">{data.skills.main_title}</h1>
+        <h1 className="font-bold dark:text-gray-300">{data.skills.main_title}</h1>
       <div className="skills-container">
         {skills.map((skill) => {
           return <Skill key={skill.id} src={skill.src} name={skill.name} />;
