@@ -14,25 +14,25 @@ const Profile = () => {
           <h2 className="info-heading pb-3 text-3xl text-white">{data.profile.sub_title[0]}</h2>
           <p className="info">
             <div className="text-limon">
-              {lang === "TR" ? "Doğum tarihi" : "Date of Birth"}{" "}
+              {lang === "TR" ? "Doğum tarihi" : "Date of Birth"}
             </div>
             {data.profile.profile_info.birth_date}
           </p>
           <p className="info">
             <div className="text-limon">
-              {lang === "TR" ? "Şehir" : "City"}{" "}
+              {lang === "TR" ? "Şehir" : "City"}
             </div>
             {data.profile.profile_info.city}
           </p>
           <p className="info">
             <div className="text-limon">
-              {lang === "TR" ? "Eğitim" : "Education"}{" "}
+              {lang === "TR" ? "Eğitim" : "Education"}
             </div>
             {data.profile.profile_info.education}
           </p>
           <p className="info">
             <div className="text-limon">
-              {lang === "TR" ? "Pozisyon" : "Position"}{" "}
+              {lang === "TR" ? "Pozisyon" : "Position"}
             </div>
             {data.profile.profile_info.position}
           </p>

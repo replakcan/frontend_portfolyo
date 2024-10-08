@@ -39,6 +39,7 @@ section {
   display: grid;
   grid-template-columns: inherit;
   gap: 1rem;
+  padding-right: 2rem;
 }
 
 /* */
@@ -140,6 +141,7 @@ section {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  border: 1px solid black;
 }
 
 .skill {
@@ -148,6 +150,7 @@ section {
   align-content: flex-start;
   gap: 1rem;
   width: 40%;
+  border: 1px solid black;
 }
 
 .skill img {
@@ -269,6 +272,7 @@ section {
   display: flex;
   gap: 1rem;
   color: black;
+  flex-wrap: wrap;
 }
 
 .project-links {
@@ -381,14 +385,8 @@ section {
 
   .profile-container {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
-
-  .profile-title {
-    text-align: center;
-  }
-
-  
 
   .profile-child:nth-child(1) {
     width: 100%;
@@ -438,5 +436,77 @@ section {
   .skills-title {
     text-align: center;
     width: 100%;
+  }
+}
+
+
+.main_title {
+  font-size: 6rem;
+  line-height: 6rem;
+  color: var(--limon);
+}
+
+@media (max-width: 760px) {
+  
+  section {
+    padding-right: 4rem;
+  }
+  
+  .main_title {
+    font-size: 4rem;
+    color: rgb(255, 166, 0);
+    line-height: 4.5rem;
+  }
+
+  .hero-btns {
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    gap: 1rem;
+    width: 250%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 0.5em;
+  }
+
+  /* .skill {
+    width: 30%;
+    flex-wrap: wrap;
+  } */
+
+  .hero-nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:600px) {
+
+  section {
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .interactive {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .main_title {
+    font-size: 3rem;
+  }
+
+  .hero-right {
+    width: 70%;
   }
 }

@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          <h1 className="main_title text-8xl text-limon font-bold dark:text-gray-800">
+          <h1 className="main_title   font-bold dark:text-gray-800">
             {data.hero.title}
           </h1>
           {/* <div className="container">
