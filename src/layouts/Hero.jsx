@@ -46,10 +46,10 @@ const Hero = () => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          {/* <h1 className="main_title text-8xl text-limon font-bold dark:text-gray-800">
+          <h1 className="main_title text-8xl text-limon font-bold dark:text-gray-800">
             {data.hero.title}
-          </h1> */}
-          <div className="container">
+          </h1>
+          {/* <div className="container">
             {lang === "EN" ? (
               <h1 className="text-limon font-bold">
                 <span className="letter text-8xl">F</span>
@@ -92,7 +92,7 @@ const Hero = () => {
                 <span className="letter text-8xl">i</span>
               </h1>
             )}
-          </div>
+          </div> */}
           <p className="text-white">{data.hero.para}</p>
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">

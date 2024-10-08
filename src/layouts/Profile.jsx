@@ -6,7 +6,7 @@ const Profile = () => {
 
   return (
     <section className=" profile-section dark:bg-gray-500">
-      <h1 className="text-limon dark:text-gray-800 font-bold">
+      <h1 className="profile-title text-limon dark:text-gray-800 font-bold">
         {data.profile.main_title}
       </h1>
       <div className="profile-container">
