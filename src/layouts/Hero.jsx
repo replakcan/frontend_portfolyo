@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className=" hero-section dark:bg-gray-800">
       <div className="hero-nav">
-        <h2 className="text-limon">{data.hero.name}</h2>
+        <h2 className="font-bold text-3xl text-limon">{data.hero.name}</h2>
         <div className="interactive">
           <button
             onClick={toggleLang}
@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          <h1 className="text-limon font-bold dark:text-gray-800">
+          <h1 className=" text-8xl text-limon font-bold dark:text-gray-800">
             {data.hero.title}
           </h1>
           <p className="text-white">{data.hero.para}</p>

@@ -38,7 +38,7 @@ export const langData = {
   },
   tr: {
     hero: {
-      interactive: ["FOR ENGLISH", "GECEMODU"],
+      interactive: ["FOR ENGLISH", "GECE MODU"],
       title: "Ön uç geliştirici",
       para: "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünler oluşturmayı seven.",
       name: "Alper",
