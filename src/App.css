@@ -308,6 +308,10 @@ section {
   gap: 1rem;
 }
 
+.gecemodu {
+  color: var(--morumsu);
+}
+
 /* */
 
 @media (max-width: 1450px) {
@@ -339,7 +343,12 @@ section {
   .hero-nav {
     margin-bottom: 1rem;
   }
+
+  .gecemodu {
+    color: var(--limon);
+  }
 }
+
 
 @media (max-width: 1200px) {
   .skills-container {
