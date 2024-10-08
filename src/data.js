@@ -107,3 +107,38 @@ export const skills = [
     src: "./images/skills/figma-logo 1.svg",
   },
 ];
+
+export const projects = [
+  {
+    title: "Kişisel Web Sitesi",
+    info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+    tools: ["react", "context API", "vercel"],
+    links: [
+      {
+        name: "View Site",
+        site: "https://frontend-portfolyo.vercel.app/",
+      },
+      {
+        name: "Github",
+        site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+      },
+    ],
+    img_src: "./images/projects/proje_1.png",
+  },
+  {
+    title: "Workintech",
+    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic adipisci aut animi odio, doloremque ipsam blanditiis reprehenderit culpa, obcaecati fugit labore! Magnam optio nemo, quo vero delectus odio provident.",
+    tools: ["react", "redux", "vercel"],
+    links: [
+      {
+        name: "View Site",
+        site: "https://frontend-portfolyo.vercel.app/",
+      },
+      {
+        name: "Github",
+        site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+      },
+    ],
+    img_src: "./images/projects/proje_1.png",
+  },
+];
