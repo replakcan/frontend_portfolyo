@@ -48,7 +48,7 @@ section {
   grid-column: 1/-1;
   background: var(--heroBackground);
   padding-top: 1rem;
-  padding-right: 2.2rem;
+  padding-right: 1rem;
 }
 
 .hero-nav {
