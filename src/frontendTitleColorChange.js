@@ -1,4 +1,4 @@
-window.addEventListener("resize", checkLettersPosition);
+/* window.addEventListener("resize", checkLettersPosition);
 window.addEventListener("DOMContentLoaded", checkLettersPosition);
 
 function checkLettersPosition() {
@@ -8,18 +8,27 @@ function checkLettersPosition() {
     const containerWidth = container.getBoundingClientRect().width;
     const greenZoneStart = containerLeft + (containerWidth * 0.77); // Yeşil alanın başlangıcı
 
+    // Öncelikle tüm harflerin rengini varsayılana döndür
+    letters.forEach(letter => {
+        letter.style.color = "#32CD32"; // Orijinal limegreen rengi
+    });
+
+    // Harflerin pozisyonuna göre renklerini güncelle
     letters.forEach(letter => {
         const letterPosition = letter.getBoundingClientRect();
         const letterWidth = letterPosition.right - letterPosition.left;
 
-        // Eğer harfin en az %50'si yeşil bölgeye giriyorsa rengini mor yap
-        const overlapWidth = Math.max(0, letterPosition.right - greenZoneStart);
-        const overlapPercentage = overlapWidth / letterWidth;
+        // Harfin sol ve sağ kenarlarının pozisyonuna göre renk değişimi
+        if (letterPosition.left < greenZoneStart && letterPosition.right > greenZoneStart) {
+            const overlapWidth = letterPosition.right - greenZoneStart;
+            const overlapPercentage = overlapWidth / letterWidth;
 
-        if (overlapPercentage >= 0.5) {
-            letter.style.color = "#4731d3"; // Mor renk
-        } else {
-            letter.style.color = "#cbf281"; // Limegreen renk
+            if (overlapPercentage > 0) {
+                letter.style.color = `linear-gradient(to right, #32CD32 ${100 - overlapPercentage * 100}%, #800080 ${overlapPercentage * 100}%)`;
+            }
+        } else if (letterPosition.left >= greenZoneStart) {
+            letter.style.color = "#800080"; // Mor renk
         }
     });
 }
+ */
