@@ -12,8 +12,8 @@
   font-family: Inter;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
-  background-color: rgb(255, 228, 196, 0.3);
+  /* border: 1px solid black;
+  background-color: rgb(255, 228, 196, 0.3); */
   --morumsu: #4731d3;
   --limon: #cbf281;
   --btnclr: #3730a3;
@@ -52,7 +52,6 @@ section {
   grid-template-columns: subgrid;
   align-items: flex-start;
   margin-bottom: 5rem;
-  border: 1px solid black;
 }
 
 .language {
@@ -179,6 +178,10 @@ section {
 }
 .profile-child {
   flex: 1;
+}
+
+.info {
+  color: white;
 }
 
 .info div {

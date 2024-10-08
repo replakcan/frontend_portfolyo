@@ -11,30 +11,38 @@ const Profile = () => {
       </h1>
       <div className="profile-container">
         <div className="info-container profile-child leading-10">
-          <h2 className="info-heading text-3xl">{data.profile.sub_title[0]}</h2>
+          <h2 className="info-heading pb-3 text-3xl text-white">{data.profile.sub_title[0]}</h2>
           <p className="info">
-            <div className="text-limon">{lang === "TR" ? "Doğum tarihi" : "Date of Birth"} </div>
+            <div className="text-limon">
+              {lang === "TR" ? "Doğum tarihi" : "Date of Birth"}{" "}
+            </div>
             {data.profile.profile_info.birth_date}
           </p>
           <p className="info">
-            <div className="text-limon">{lang === "TR" ? "Şehir" : "City"} </div>
+            <div className="text-limon">
+              {lang === "TR" ? "Şehir" : "City"}{" "}
+            </div>
             {data.profile.profile_info.city}
           </p>
           <p className="info">
-            <div className="text-limon">{lang === "TR" ? "Eğitim" : "Education"} </div>
+            <div className="text-limon">
+              {lang === "TR" ? "Eğitim" : "Education"}{" "}
+            </div>
             {data.profile.profile_info.education}
           </p>
           <p className="info">
-            <div className="text-limon">{lang === "TR" ? "Pozisyon" : "Position"} </div>
+            <div className="text-limon">
+              {lang === "TR" ? "Pozisyon" : "Position"}{" "}
+            </div>
             {data.profile.profile_info.position}
           </p>
         </div>
         <img className="profile-child" src="./images/hero/foto.svg" />
         <div className="info-content profile-child">
-          <h2 className="aboutMe-heading text-3xl">
+          <h2 className="aboutMe-heading pb-3 text-3xl text-white">
             {data.profile.sub_title[1]}
           </h2>
-          <p>{data.profile.about_me}</p>
+          <p className="text-white" >{data.profile.about_me}</p>
         </div>
       </div>
     </section>
