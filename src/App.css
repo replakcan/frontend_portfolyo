@@ -405,6 +405,10 @@ section {
     justify-content: flex-start;
     flex-wrap: wrap;
   }
+
+  .hero-nav span {
+    color: var(--limon);
+  }
 }
 
 @media (max-width: 600px) {
