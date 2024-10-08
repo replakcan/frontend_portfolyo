@@ -38,7 +38,7 @@ const Hero = () => {
               onChange={toggleDarkMode}
             />
             <div className=" text-btnswitch w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-            <span className="ms-3  text-sm  dark:text-gray-800 ">
+            <span className="ms-3  text-sm text-morumsu dark:text-gray-800 ">
               {data.hero.interactive[1]}
             </span>
           </label>
@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
       <div className="hero-container">
         <div className="hero-left">
-          <h1 className="main_title   font-bold dark:text-gray-800">
+          <h1 className="text-red main_title   font-bold dark:text-gray-800">
             {data.hero.title}
           </h1>
           {/* <div className="container">

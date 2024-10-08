@@ -14,6 +14,7 @@ export default {
         "eflatun": "#8F88FF",
         "btnswitch": "#FFE86E",
         
+        
       },
     },
   },
