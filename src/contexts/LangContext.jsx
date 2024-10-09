@@ -12,7 +12,6 @@ export const LangContextProvider = ({ children }) => {
   const [data, setData] = useState(langData.tr);
  
   const notify_tr = () => toast("sayfa dili tr_TR'ye çevrildi");
-
   const notify_en = () => toast("page language is set to en_US");
 
   const toggleLang = () => {
