@@ -2,6 +2,7 @@ import { createContext, useEffect, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import axios from "axios";
 import { langData } from "../data";
+import { toast } from "react-toastify";
 
 export const LangContext = createContext();
 
@@ -10,12 +11,17 @@ export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
   const [data, setData] = useState(langData.tr);
  
+  const notify_tr = () => toast("sayfa dili tr_TR'ye çevrildi");
+
+  const notify_en = () => toast("page language is set to en_US");
 
   const toggleLang = () => {
     if (lang === "TR") {
       setLang("EN");
+      notify_en()
     } else {
       setLang("TR");
+      notify_tr();
     }
   };
 
