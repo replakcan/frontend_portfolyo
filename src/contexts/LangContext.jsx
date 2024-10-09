@@ -9,6 +9,7 @@ export const LangContext = createContext();
 export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
   const [data, setData] = useState(langData.tr);
+ 
 
   const toggleLang = () => {
     if (lang === "TR") {
