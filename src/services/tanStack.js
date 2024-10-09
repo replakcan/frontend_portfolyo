@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+/* import { useQuery } from "@tanstack/react-query";
 import { getProjectData } from "./api";
 
 export function useProjectsData() {
@@ -8,4 +8,4 @@ export function useProjectsData() {
         queryFn: getProjectData
     })
 
-}
+} */
