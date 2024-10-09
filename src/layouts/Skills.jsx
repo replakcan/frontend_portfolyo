@@ -7,8 +7,8 @@ const Skills = () => {
   const { data } = useContext(LangContext);
 
   return (
-    <section className="skills-section dark:bg-red-50">
-      <h1 className="skills-title font-bold ">{data.skills.main_title}</h1>
+    <section className="skills-section dark:bg-slate-500">
+      <h1 className="skills-title font-bold dark:text-slate-800 ">{data.skills.main_title}</h1>
       <div className="skills-container">
         {skills.map((skill) => {
           return <Skill key={skill.id} src={skill.src} name={skill.name} />;

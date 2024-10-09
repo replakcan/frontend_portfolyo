@@ -15,7 +15,7 @@ function App() {
   console.log("darkmode: ", darkMode);
 
   return (
-    <main className={darkMode ? "dark bg-slate-900 h-screen" : ""}>
+    <main className={darkMode ? "dark" : ""}>
       <Hero />
       <Skills />
       <Profile />

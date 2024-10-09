@@ -3,8 +3,8 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <section className="projects-section bg-limon dark:bg-gray-800">
-      <h1 className="project-header font-bold dark:text-gray-300">Projects</h1>
+    <section className="projects-section bg-limon dark:bg-slate-500 dark:text-slate-900">
+      <h1 className="project-header font-bold dark:text-gray-800">Projects</h1>
       {projects.map((project, index) => {
         return (
           <Project
