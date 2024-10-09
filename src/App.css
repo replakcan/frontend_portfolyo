@@ -414,6 +414,10 @@ section {
     display: none;
   }
 
+  .profile-container img {
+    display: none;
+  }
+
   .project-content {
     border-radius: 5rem 2rem 3rem 2rem;
   }
