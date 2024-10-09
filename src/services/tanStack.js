@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { getProjectData } from "./api";
 
-export function useLangData() {
+export function useProjectsData() {
 
     return useQuery({
         queryKey: ["projectData"],
