@@ -1,13 +1,13 @@
-/* import { useQuery } from "@tanstack/react-query"; */
 import Project from "../components/Project";
-import { projects } from "../data";
+import { useProjectsData } from "../services/tanStack";
+/* import { projects } from "../data"; */
 
 const Projects = () => {
- /*  const { isPending, error, data: projects } = useQuery(); */
+  const { isPending, error, data: projects } = useProjectsData();
 
-/*   if (isPending) return <p>Loading...</p>;
+  if (isPending) return <p>Loading...</p>;
 
-  if (error) return <p>{error.message}</p>; */
+  if (error) return <p>{error.message}</p>;
 
   return (
     <section className="projects-section bg-limon dark:bg-slate-500 dark:text-slate-900">
