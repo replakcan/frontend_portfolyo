@@ -1,6 +1,5 @@
 import Project from "../components/Project";
 import { useProjectsData } from "../services/tanStack";
-/* import { projects } from "../data"; */
 
 const Projects = () => {
   const { isPending, error, data: projects } = useProjectsData();
