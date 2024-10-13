@@ -16,7 +16,11 @@ const Project = ({ project_title, project_info, tools, links, src }) => {
           </div>
           <div className="project-links">
             {links.map((link, index) => {
-              return <a href={link.site} target="_blank" key={index}>{link.name}</a>;
+              return (
+                <a href={link.site} target="_blank" key={index}>
+                  {link.name}
+                </a>
+              );
             })}
           </div>
         </div>

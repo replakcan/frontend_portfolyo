@@ -1,5 +1,5 @@
 import axios from "axios";
-import { langData, /* projects */ } from "../data";
+import { langData /* projects */ } from "../data";
 
 /* export const getProjectData = async () => {
   console.log("projects: ", projects);

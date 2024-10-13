@@ -13,7 +13,10 @@ console.log("locale:", locale);
 
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
-  const [lang, setLang] = useLocalStorage("X-lang", locale === "en" ? "EN" : "TR");
+  const [lang, setLang] = useLocalStorage(
+    "X-lang",
+    locale === "en" ? "EN" : "TR"
+  );
   const { data: mainData } = useMainData();
   /* const { data: projectsData } = useProjectsData(); */
   const [data, setData] = useState(locale === "en" ? langData.en : langData.tr);

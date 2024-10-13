@@ -24,7 +24,7 @@ function App() {
       </>
     );
 
-  if (error) return <p>Komsular yetisin error varrrr!!!</p>
+  if (error) return <p>Komsular yetisin error varrrr!!!</p>;
 
   return (
     <main className={darkMode ? "dark" : ""}>
