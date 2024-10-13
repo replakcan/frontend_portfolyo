@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { LangContext } from "../contexts/LangContext";
 import { ThemeContext } from "../contexts/ThemeContext";
 
-
 const Hero = () => {
   const { lang, toggleLang } = useContext(LangContext);
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -55,11 +54,13 @@ const Hero = () => {
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/github-mark.svg"></img>
-              <span>Github</span>
+              <a href="https://github.com/replakcan">Github</a>
             </button>
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/linkedin.svg"></img>
-              <span>Linkedin</span>
+              <a href="https://www.linkedin.com/in/alper-mutlu-akcan-41ab8b184/">
+                Linkedin
+              </a>
             </button>
           </div>
         </div>
