@@ -54,11 +54,11 @@ const Hero = () => {
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/github-mark.svg"></img>
-              <a href="https://github.com/replakcan">Github</a>
+              <a href="https://github.com/replakcan" target="_blank">Github</a>
             </button>
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/linkedin.svg"></img>
-              <a href="https://www.linkedin.com/in/alper-mutlu-akcan-41ab8b184/">
+              <a href="https://www.linkedin.com/in/alper-mutlu-akcan-41ab8b184/" target="_blank">
                 Linkedin
               </a>
             </button>
