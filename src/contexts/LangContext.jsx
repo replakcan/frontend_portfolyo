@@ -7,10 +7,10 @@ import { useMainData /* useProjectsData */ } from "../services/tanStack";
 export const LangContext = createContext();
 
 let locale = navigator.language;
-console.log("locale:",locale);
+console.log("locale:", locale);
 
 locale = locale.split("-")[0];
-console.log("locale:",locale);
+console.log("locale:", locale);
 
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
@@ -28,8 +28,14 @@ export const LangContextProvider = ({ children }) => {
     )
   }, []) */
 
-  const notify_tr = () => toast("sayfa dili tr_TR'ye çevrildi");
-  const notify_en = () => toast("page language is set to en_US");
+  const notify_tr = () =>
+    toast.info("sayfa dili tr_TR'ye çevrildi", {
+      autoClose: 2000,
+    });
+  const notify_en = () =>
+    toast.info("page language is set to en_US", {
+      autoClose: 2000,
+    });
 
   const toggleLang = () => {
     if (lang === "TR") {
