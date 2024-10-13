@@ -15,9 +15,16 @@ function App() {
 
   const { isPending, error } = useMainData();
 
-  if (isPending) return <div className="loader">Loading</div>;
+  if (isPending)
+    return (
+      <>
+        <div className="loader-container">
+          <div className="loader"></div>
+        </div>
+      </>
+    );
 
-  if (error) return <p>Komsular yetisin error varrrr!!!</p>;
+  if (error) return <p>Komsular yetisin error varrrr!!!</p>
 
   return (
     <main className={darkMode ? "dark" : ""}>
