@@ -152,7 +152,7 @@ section {
   height: 100%;
   max-width: 100px;
   background-color: white;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .skill p {
@@ -318,7 +318,7 @@ section {
   .hero-section {
     background: var(--morumsu);
   }
-  
+
   /* section {
     padding-right: 2rem;
   } */
@@ -349,7 +349,6 @@ section {
   }
 }
 
-
 @media (max-width: 1200px) {
   .skills-container {
     grid-column: 2/9;
@@ -366,7 +365,6 @@ section {
     align-items: flex-start;
     padding: 3rem 2rem;
     align-items: center;
-    
   }
 
   .skill {
@@ -410,16 +408,8 @@ section {
 }
 
 @media (max-width: 760px) {
-  .prj-img {
-    display: none;
-  }
-
-  .profile-container img {
-    display: none;
-  }
-
   .project-content {
-    border-radius: 5rem 2rem 3rem 2rem;
+    border-radius: 0 0 2rem 2rem;
   }
 
   .projects-section {
@@ -475,7 +465,6 @@ section {
     display: flex;
     flex-direction: row;
   }
-
 }
 
 @media (max-width: 400px) {
