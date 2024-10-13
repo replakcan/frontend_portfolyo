@@ -24,8 +24,24 @@ export const langData = {
     },
     projects: [
       {
-        title: "Kişisel Web Sitesi",
-        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+        title: "E-commerce Website",
+        info: "Coming soon...",
+        tools: ["react", "redux", "tailwindcss", "figma", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://e-commerce-eta-six-73.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/replakcan/e-commerce",
+          },
+        ],
+        img_src: "./images/projects/ecommerce.png",
+      },
+      {
+        title: "Personal Website",
+        info: "A personal website that gets the data it shows with a request made to backend server. It includes night mode that changes the page display and language changing features that update the page content according to the selected language.",
         tools: ["react", "context API", "vercel"],
         links: [
           {
@@ -40,36 +56,20 @@ export const langData = {
         img_src: "./images/projects/proje_1.png",
       },
       {
-        title: "Kişisel Web Sitesi",
-        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
-        tools: ["react", "context API", "vercel"],
+        title: "Pizza Order Website",
+        info: "You can add your ingridients and buy as many as you want! The price on the order recieved page after placing the order will not bother you if you like salt on your pizza! /s. ",
+        tools: ["react", "axios", "vercel"],
         links: [
           {
             name: "View Site",
-            site: "https://frontend-portfolyo.vercel.app/",
+            site: "https://fsweb-s8-challenge-pizza-template.vercel.app/",
           },
           {
             name: "Github",
-            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+            site: "https://github.com/replakcan/fsweb-s8-challenge-pizza-template",
           },
         ],
-        img_src: "./images/projects/proje_1.png",
-      },
-      {
-        title: "Kişisel Web Sitesi",
-        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
-        tools: ["react", "context API", "vercel"],
-        links: [
-          {
-            name: "View Site",
-            site: "https://frontend-portfolyo.vercel.app/",
-          },
-          {
-            name: "Github",
-            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
-          },
-        ],
-        img_src: "./images/projects/proje_1.png",
+        img_src: "./images/projects/pizzaProje.png",
       },
     ],
     footer: {
@@ -103,6 +103,22 @@ export const langData = {
     },
     projects: [
       {
+        title: "E-ticaret Sitesi",
+        info: "Pek yakında...",
+        tools: ["react", "redux", "tailwindcss", "figma", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://e-commerce-eta-six-73.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/replakcan/e-commerce",
+          },
+        ],
+        img_src: "./images/projects/ecommerce.png",
+      },
+      {
         title: "Kişisel Web Sitesi",
         info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
         tools: ["react", "context API", "vercel"],
@@ -117,6 +133,22 @@ export const langData = {
           },
         ],
         img_src: "./images/projects/proje_1.png",
+      },
+      {
+        title: "Pizza Sipariş Sitesi",
+        info: "Seçtiğiniz özellikleri barındıran pizzayı oluşturup sizi sipariş alındı sayfasına ileten uygulama",
+        tools: ["react", "axios", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://fsweb-s8-challenge-pizza-template.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/replakcan/fsweb-s8-challenge-pizza-template",
+          },
+        ],
+        img_src: "./images/projects/pizzaProje.png",
       },
     ],
     footer: {
