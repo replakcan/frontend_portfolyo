@@ -20,7 +20,7 @@ export const langData = {
         position: "Frontend, UI",
       },
       about_me:
-        "After graduating from Yıldız Technical University Naval Architecture and Marine Mechanical Engineering in 2023, I started working as a project engineer at HAT-SAN Shipyard. While I was working, I started to improve myself in the software field with the help of open sources. I decided that what I really wanted to do was in the software field and I quit my job. I took 6 months of intensive software training and improved myself in JS, HTML, CSS, React.js and Java languages. My goal in the short term is to find a job opportunity where I can experience all I have learned on the job and to further improve myself in the software field.",
+        "After graduating from Yıldız Technical University Naval Architecture and Marine Engineering in 2023, I started working as a project engineer at HAT-SAN Shipyard. While I was working, I started to improve myself in the software field with the help of open sources. I decided that what I really wanted to do was in the software field and I quit my job. I took 6 months of intensive software training and improved myself in JS, HTML, CSS, React.js and Java languages. My goal in the short term is to find a job opportunity where I can experience all I have learned on the job and to further improve myself in the software field.",
     },
     projects: [
       {
