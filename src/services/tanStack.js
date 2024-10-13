@@ -12,5 +12,6 @@ export function useMainData() {
   return useQuery({
     queryKey: ["mainData"],
     queryFn: getMainData,
+    refetchInterval: false,
   });
 }
