@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, /* useEffect */ useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { langData } from "../data";
 import { toast } from "react-toastify";
@@ -6,7 +6,10 @@ import { useMainData /* useProjectsData */ } from "../services/tanStack";
 
 export const LangContext = createContext();
 
-const locale = navigator.language;
+let locale = navigator.language;
+console.log("locale:",locale);
+
+locale = locale.split("-")[0];
 console.log("locale:",locale);
 
 // eslint-disable-next-line react/prop-types
@@ -16,6 +19,14 @@ export const LangContextProvider = ({ children }) => {
   /* const { data: projectsData } = useProjectsData(); */
   const [data, setData] = useState(langData.tr);
   /*  const [projectData, setProjectData] = useState(projectsData.tr); */
+
+  /* useEffect(() => {
+    if (locale === "en"){
+      setData(langData.en)
+    } else (
+      setData(langData.tr)
+    )
+  }, []) */
 
   const notify_tr = () => toast("sayfa dili tr_TR'ye çevrildi");
   const notify_en = () => toast("page language is set to en_US");
