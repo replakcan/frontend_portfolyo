@@ -9,21 +9,18 @@ import { ThemeContext } from "./contexts/ThemeContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
 function App() {
   const { darkMode } = useContext(ThemeContext);
 
   return (
-    
-      <main className={darkMode ? "dark" : ""}>
-        <Hero />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
-        <ToastContainer />
-      </main>
-    
+    <main className={darkMode ? "dark" : ""}>
+      <Hero />
+      <Skills />
+      <Profile />
+      <Projects />
+      <Footer />
+      <ToastContainer />
+    </main>
   );
 }
 

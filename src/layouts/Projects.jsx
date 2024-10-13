@@ -1,9 +1,11 @@
+/* import { useContext } from "react"; */
 import Project from "../components/Project";
 import { useProjectsData } from "../services/tanStack";
+/* import { LangContext } from "../contexts/LangContext"; */
 
 const Projects = () => {
   const { isPending, error, data: projects } = useProjectsData();
-
+  /* const { projectData } = useContext(LangContext); */
   if (isPending) return <p>Loading...</p>;
 
   if (error) return <p>{error.message}</p>;

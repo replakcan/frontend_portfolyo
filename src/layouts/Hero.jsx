@@ -1,15 +1,13 @@
 import { useContext } from "react";
 import { LangContext } from "../contexts/LangContext";
 import { ThemeContext } from "../contexts/ThemeContext";
-import { useMainData } from "../services/tanStack";
+
 
 const Hero = () => {
   const { lang, toggleLang } = useContext(LangContext);
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
   const { data } = useContext(LangContext);
 
-  const { data: mainData } = useMainData();
-  console.log("mainData: ", mainData)
   return (
     <section className=" hero-section dark:bg-slate-800">
       <div className="hero-nav">
