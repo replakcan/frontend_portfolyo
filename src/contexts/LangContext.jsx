@@ -2,18 +2,20 @@ import { createContext, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { langData } from "../data";
 import { toast } from "react-toastify";
-import { useMainData, useProjectsData } from "../services/tanStack";
+import { useMainData /* useProjectsData */ } from "../services/tanStack";
 
 export const LangContext = createContext();
+
+const locale = navigator.language;
+console.log("locale:",locale);
 
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
   const [lang, setLang] = useLocalStorage("X-lang", "TR");
   const { data: mainData } = useMainData();
-  const { data: projectsData } = useProjectsData();
+  /* const { data: projectsData } = useProjectsData(); */
   const [data, setData] = useState(langData.tr);
- /*  const [projectData, setProjectData] = useState(projectsData.tr); */
-
+  /*  const [projectData, setProjectData] = useState(projectsData.tr); */
 
   const notify_tr = () => toast("sayfa dili tr_TR'ye çevrildi");
   const notify_en = () => toast("page language is set to en_US");
@@ -33,7 +35,9 @@ export const LangContextProvider = ({ children }) => {
   };
 
   return (
-    <LangContext.Provider value={{ lang, setLang, toggleLang, data, /* projectData */ }}>
+    <LangContext.Provider
+      value={{ lang, setLang, toggleLang, data /* projectData */ }}
+    >
       {children}
     </LangContext.Provider>
   );

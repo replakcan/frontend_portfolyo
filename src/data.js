@@ -22,6 +22,56 @@ export const langData = {
       about_me:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
     },
+    projects: [
+      {
+        title: "Kişisel Web Sitesi",
+        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+        tools: ["react", "context API", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://frontend-portfolyo.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+          },
+        ],
+        img_src: "./images/projects/proje_1.png",
+      },
+      {
+        title: "Kişisel Web Sitesi",
+        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+        tools: ["react", "context API", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://frontend-portfolyo.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+          },
+        ],
+        img_src: "./images/projects/proje_1.png",
+      },
+      {
+        title: "Kişisel Web Sitesi",
+        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+        tools: ["react", "context API", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://frontend-portfolyo.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+          },
+        ],
+        img_src: "./images/projects/proje_1.png",
+      },
+    ],
     footer: {
       title: "Send me a message!",
       para: "Got a question or proposal, or just want to say hello? Go ahead.",
@@ -51,6 +101,24 @@ export const langData = {
       about_me:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
     },
+    projects: [
+      {
+        title: "Kişisel Web Sitesi",
+        info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
+        tools: ["react", "context API", "vercel"],
+        links: [
+          {
+            name: "View Site",
+            site: "https://frontend-portfolyo.vercel.app/",
+          },
+          {
+            name: "Github",
+            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+          },
+        ],
+        img_src: "./images/projects/proje_1.png",
+      },
+    ],
     footer: {
       title: "Bana mesaj yolla!",
       para: "Danışmak istediğiniz veya söylemek istediğiniz herhangi bir şeyiniz varsa",
