@@ -224,7 +224,7 @@ section {
 
 .project-btns {
   display: flex;
-  gap: 1rem;
+  gap: .2rem;
   color: black;
   flex-wrap: wrap;
 }
@@ -232,7 +232,7 @@ section {
 .project-links {
   display: flex;
   gap: 1rem;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .project-header {
