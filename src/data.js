@@ -22,14 +22,6 @@ export const langData = {
       about_me:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
     },
-    projects: {
-      main_title: "Projects",
-      project: {
-        title: "Workintech",
-        info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        vercel_link: "View Site",
-      },
-    },
     footer: {
       title: "Send me a message!",
       para: "Got a question or proposal, or just want to say hello? Go ahead.",
@@ -58,14 +50,6 @@ export const langData = {
       },
       about_me:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
-    },
-    projects: {
-      main_title: "Projeler",
-      project: {
-        title: "Workintech",
-        info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        vercel_link: "Görüntüle",
-      },
     },
     footer: {
       title: "Bana mesaj yolla!",

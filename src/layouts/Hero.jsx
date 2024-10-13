@@ -1,12 +1,15 @@
 import { useContext } from "react";
 import { LangContext } from "../contexts/LangContext";
 import { ThemeContext } from "../contexts/ThemeContext";
+import { useMainData } from "../services/tanStack";
 
 const Hero = () => {
   const { lang, toggleLang } = useContext(LangContext);
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
   const { data } = useContext(LangContext);
 
+  const { data: mainData } = useMainData();
+  console.log("mainData: ", mainData)
   return (
     <section className=" hero-section dark:bg-slate-800">
       <div className="hero-nav">
@@ -33,7 +36,7 @@ const Hero = () => {
               type="checkbox"
               value=""
               className="sr-only peer"
-              data-testid="darkMode-toggle"
+              /* data-testid="darkMode-toggle" */
               checked={darkMode}
               onChange={toggleDarkMode}
             />
@@ -49,50 +52,7 @@ const Hero = () => {
           <h1 className="text-limon main_title   font-bold dark:text-gray-300">
             {data.hero.title}
           </h1>
-          {/* <div className="container">
-            {lang === "EN" ? (
-              <h1 className="text-limon font-bold">
-                <span className="letter text-8xl">F</span>
-                <span className="letter text-8xl">r</span>
-                <span className="letter text-8xl">o</span>
-                <span className="letter text-8xl">n</span>
-                <span className="letter text-8xl">t</span>
-                <span className="letter text-8xl">e</span>
-                <span className="letter text-8xl">n</span>
-                <span className="letter text-8xl">d</span>
-                <span className="letter text-8xl"> </span>
-                <span className="letter text-8xl">D</span>
-                <span className="letter text-8xl">e</span>
-                <span className="letter text-8xl">v</span>
-                <span className="letter text-8xl">e</span>
-                <span className="letter text-8xl">l</span>
-                <span className="letter text-8xl">o</span>
-                <span className="letter text-8xl">p</span>
-                <span className="letter text-8xl">e</span>
-                <span className="letter text-8xl">r</span>
-              </h1>
-            ) : (
-              <h1 className="text-limon font-bold">
-                <span className="letter text-8xl">Ö</span>
-                <span className="letter text-8xl">n</span>
-                <span className="letter text-8xl"> </span>
-                <span className="letter text-8xl">U</span>
-                <span className="letter text-8xl">ç</span>
-                <span className="letter text-8xl"> </span>
-                <span className="letter text-8xl">G</span>
-                <span className="letter text-8xl">e</span>
-                <span className="letter text-8xl">l</span>
-                <span className="letter text-8xl">i</span>
-                <span className="letter text-8xl">ş</span>
-                <span className="letter text-8xl">t</span>
-                <span className="letter text-8xl">i</span>
-                <span className="letter text-8xl">r</span>
-                <span className="letter text-8xl">i</span>
-                <span className="letter text-8xl">c</span>
-                <span className="letter text-8xl">i</span>
-              </h1>
-            )}
-          </div> */}
+
           <p className="text-white">{data.hero.para}</p>
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">
