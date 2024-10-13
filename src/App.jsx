@@ -8,10 +8,16 @@ import Skills from "./layouts/Skills";
 import { ThemeContext } from "./contexts/ThemeContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useMainData } from "./services/tanStack";
 
 function App() {
   const { darkMode } = useContext(ThemeContext);
 
+  const { isPending, error } = useMainData();
+
+  if (isPending) return <p>Loading...</p>;
+
+  if (error) return <p>Komsular yetisin error varrrr!!!</p>;
   return (
     <main className={darkMode ? "dark" : ""}>
       <Hero />
