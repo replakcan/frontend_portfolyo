@@ -22,13 +22,6 @@ export const LangContextProvider = ({ children }) => {
   const [data, setData] = useState(locale === "en" ? langData.en : langData.tr);
   /*  const [projectData, setProjectData] = useState(projectsData.tr); */
 
-  /* useEffect(() => {
-    if (locale === "en"){
-      setData(langData.en)
-    } else (
-      setData(langData.tr)
-    )
-  }, []) */
 
   const notify_tr = () =>
     toast.info("sayfa dili tr_TR'ye çevrildi", {
