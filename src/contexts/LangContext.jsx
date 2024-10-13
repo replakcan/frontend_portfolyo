@@ -7,17 +7,16 @@ import { useMainData /* useProjectsData */ } from "../services/tanStack";
 export const LangContext = createContext();
 
 let locale = navigator.language;
-console.log("locale:", locale);
 
 locale = locale.split("-")[0];
 console.log("locale:", locale);
 
 // eslint-disable-next-line react/prop-types
 export const LangContextProvider = ({ children }) => {
-  const [lang, setLang] = useLocalStorage("X-lang", "TR");
+  const [lang, setLang] = useLocalStorage("X-lang", locale === "en" ? "EN" : "TR");
   const { data: mainData } = useMainData();
   /* const { data: projectsData } = useProjectsData(); */
-  const [data, setData] = useState(langData.tr);
+  const [data, setData] = useState(locale === "en" ? langData.en : langData.tr);
   /*  const [projectData, setProjectData] = useState(projectsData.tr); */
 
   /* useEffect(() => {
