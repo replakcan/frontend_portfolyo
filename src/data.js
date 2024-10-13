@@ -20,7 +20,7 @@ export const langData = {
         position: "Frontend, UI",
       },
       about_me:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
+        "After graduating from Yıldız Technical University Naval Architecture and Marine Mechanical Engineering in 2023, I started working as a project engineer at HAT-SAN Shipyard. While I was working, I started to improve myself in the software field with the help of open sources. I decided that what I really wanted to do was in the software field and I quit my job. I took 6 months of intensive software training and improved myself in JS, HTML, CSS, React.js and Java languages. My goal in the short term is to find a job opportunity where I can experience all I have learned on the job and to further improve myself in the software field.",
     },
     projects: [
       {
@@ -99,7 +99,7 @@ export const langData = {
         position: "Frontend, UI",
       },
       about_me:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est mollitia adipisci facilis voluptatem dicta neque eaque quia velit, ea, perferendis inventore et aliquam quibusdam alias eligendi assumenda quis ullam doloribus.",
+        "2023 yılında Yıldız Teknik Üniversitesi Gemi İnşaatı ve Gemi Makineleri Mühendisliği’nden mezuniyetim sonrasında HAT-SAN Shipyard firmasında proje mühendisi olarak çalışmaya başladım. Çalışırken bir yandan da yazılım alanında kendimi açık kaynaklar yardımıyla geliştirmeye başladım. Asıl yapmak istediğim işin yazılım alanında olduğuna karar verdim ve işimden ayrıldım, 6 aylık yoğun yazılım eğitimi alarak kendimi JS, HTML, CSS, React.js ve Java dillerinde geliştirdim. Hedefim kısa vadede, tüm öğrendiklerimi iş başında tecrübe edeceğim bir iş fırsatı yakalamak ve yazılım alanında kendimi daha da geliştirmek.",
     },
     projects: [
       {
@@ -136,7 +136,7 @@ export const langData = {
       },
       {
         title: "Pizza Sipariş Sitesi",
-        info: "Seçtiğiniz özellikleri barındıran pizzayı oluşturup sizi sipariş alındı sayfasına ileten uygulama",
+        info: "Seçtiğiniz özellikleri barındıran pizzayı oluşturarak istediğiniz kadar pizza siparişi verebilirsiniz! Tabi sipariş verdikten sonra yönlendirileceğiniz sipariş alındı sayfasındaki karşılaşacağınız fiyatın tuz oranının damak tadınızı bozacağını düşünmüyorsanız(!).",
         tools: ["react", "axios", "vercel"],
         links: [
           {
@@ -192,7 +192,7 @@ export const skills = [
   },
 ];
 
-export const projects = [
+/* export const projects = [
   {
     title: "Kişisel Web Sitesi",
     info: "Görüntülenen datayı backende yapılan istek ile görüntüleyen kişisel web sitesi. Sayfa görüntüsünü değiştiren gece modu ve  sayfa içeriğini seçilen dile göre güncelleyen dil değiştirme özelliklerini barındırmaktadır.",
@@ -211,7 +211,7 @@ export const projects = [
   },
   {
     title: "Workintech",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic adipisci aut animi odio, doloremque ipsam blanditiis reprehenderit culpa, obcaecati fugit labore! Magnam optio nemo, quo vero delectus odio provident.",
+    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic adipisci aut animi odio, doloremque apipsam blanditiis reprehenderit culpa, obcaecati fugit labore! Magnam optio nemo, quo vero delectus odio provident.",
     tools: ["react", "redux", "vercel"],
     links: [
       {
@@ -225,4 +225,4 @@ export const projects = [
     ],
     img_src: "./images/projects/proje_1.png",
   },
-];
+]; */
