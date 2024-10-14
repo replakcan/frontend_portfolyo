@@ -50,7 +50,7 @@ export const langData = {
           },
           {
             name: "Github",
-            site: "https://github.com/Workintech/FSWeb-Frontend-Challenge",
+            site: "https://github.com/replakcan/frontend_portfolyo",
           },
         ],
         img_src: "./images/projects/proje_1.png",
