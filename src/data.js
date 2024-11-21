@@ -30,7 +30,7 @@ export const langData = {
         links: [
           {
             name: "View Site",
-            site: "https://e-commerce-eta-six-73.vercel.app/",
+            site: "https://e-commerce-ecru-six-32.vercel.app/",
           },
           {
             name: "Github",
