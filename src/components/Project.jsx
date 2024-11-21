@@ -4,7 +4,7 @@ const Project = ({ project_title, project_info, tools, links, src }) => {
     <>
       <div className="projects-container dark:bg-gray-300">
         <div className="project-left">
-          <img className="prj-img" src={src} />
+          <img className="prj-img " src={src} />
         </div>
         <div className="project-content project-right dark:bg-gray-300">
           <h2>{project_title}</h2>

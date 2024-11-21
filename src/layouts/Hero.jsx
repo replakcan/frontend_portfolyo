@@ -54,18 +54,25 @@ const Hero = () => {
           <div className="hero-btns ">
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/github-mark.svg"></img>
-              <a href="https://github.com/replakcan" target="_blank">Github</a>
+              <a href="https://github.com/replakcan" target="_blank">
+                Github
+              </a>
             </button>
             <button className="text-btnclr dark:text-customRed">
               <img src="./images/hero/linkedin.svg"></img>
-              <a href="https://www.linkedin.com/in/alper-mutlu-akcan-41ab8b184/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/alper-mutlu-akcan-41ab8b184/"
+                target="_blank"
+              >
                 Linkedin
               </a>
             </button>
           </div>
         </div>
         <div className="hero-right">
-          <img src="./images/hero/foto.svg" />
+          <div className="border w-fit overflow-hidden rounded-3xl border-none">
+            <img src="./images/hero/alper.png" />
+          </div>
         </div>
       </div>
     </section>

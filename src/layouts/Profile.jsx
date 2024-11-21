@@ -38,8 +38,8 @@ const Profile = () => {
           </div>
         </div>
         <img
-          className="profile-child profile-img"
-          src="./images/hero/foto.svg"
+          className="profile-child profile-img rounded-3xl h-max w-fit"
+          src="./images/hero/alper.png"
         />
         <div className="info-content profile-child">
           <h2 className="aboutMe-heading pb-3 text-3xl text-white dark:text-slate-300 ">
