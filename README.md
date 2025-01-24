@@ -1,8 +1,21 @@
-# React + Vite
+# Personal Website / Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tools
+  - React
+  - react-router
+  - TanStackQuery
+  - ContextAPI for global state management
+  - TailwindCSS
+  - Notifications: toastify-js
+  - Formatter: eslint
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+  1. Language switch
+    - Reads user's system preferences and sets website language to English if not Turkish
+    - Contains data file with both English and Turkish informations
+  3. DarkMode / LightMode switch
+    - Reads user's system preferences and sets website theme to dark || light
+  4. ***Custom hook*** named useLocalStorage() for keeping data in local storage  
+  5. ***TanStackQuery*** for keeping data in ***cache***
+  6. ***Responsive Design***
+     - Uses both tailwindcss and core css for ***media queries***
