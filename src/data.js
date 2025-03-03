@@ -30,11 +30,11 @@ export const langData = {
         links: [
           {
             name: "View Site",
-            site: "https://e-commerce-ecru-six-32.vercel.app/",
+            site: "https://pandora-e-commerce.vercel.app/",
           },
           {
             name: "Github",
-            site: "https://github.com/replakcan/e-commerce",
+            site: "https://github.com/replakcan/pandora",
           },
         ],
         img_src: "./images/projects/ecommerce.png",
@@ -66,7 +66,7 @@ export const langData = {
           },
           {
             name: "Github",
-            site: "https://github.com/replakcan/fsweb-s8-challenge-pizza-template",
+            site: "https://github.com/replakcan/pizzalavista",
           },
         ],
         img_src: "./images/projects/pizzaProje.png",
@@ -109,11 +109,11 @@ export const langData = {
         links: [
           {
             name: "View Site",
-            site: "https://e-commerce-eta-six-73.vercel.app/",
+            site: "https://pandora-e-commerce.vercel.app/",
           },
           {
             name: "Github",
-            site: "https://github.com/replakcan/e-commerce",
+            site: "https://github.com/replakcan/pandora",
           },
         ],
         img_src: "./images/projects/ecommerce.png",
@@ -145,7 +145,7 @@ export const langData = {
           },
           {
             name: "Github",
-            site: "https://github.com/replakcan/fsweb-s8-challenge-pizza-template",
+            site: "https://github.com/replakcan/pizzalavista",
           },
         ],
         img_src: "./images/projects/pizzaProje.png",
