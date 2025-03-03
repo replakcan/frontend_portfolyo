@@ -11,7 +11,7 @@ const Project = ({ project_title, project_info, tools, links, src }) => {
           <p>{project_info}</p>
           <div className="project-btns">
             {tools.map((tool, index) => {
-              return <button key={index}>{tool}</button>;
+              return <button key={index}>{tool}</button>
             })}
           </div>
           <div className="project-links">
@@ -20,13 +20,13 @@ const Project = ({ project_title, project_info, tools, links, src }) => {
                 <a href={link.site} target="_blank" key={index}>
                   {link.name}
                 </a>
-              );
+              )
             })}
           </div>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project

@@ -7,7 +7,7 @@ const Skill = ({ src, name }) => {
         <p className="dark:text-gray-300">{name}</p>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Skill;
+export default Skill
